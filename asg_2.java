@@ -18,14 +18,15 @@ class asg_2 extends JPanel {
     }
 
     public void paintComponent(Graphics g) {
+		
 
         Graphics2D g2 = (Graphics2D) g;
 
-        // DrawPoly(g2, new int[][] { { 30, 30 }, { 213, 572 }, { 132, 312 } },
-        // Color.black); draw poly
-        midpointCircle(g, g2, addP(200, 200), 30, Color.black);
-        // asg_60050165 j = new asg_60050165(g); // Draw Work From 600165
-        // asg_60050143 n = new asg_60050143(g); // Draw Work From 600163
+        //DrawPoly(g2, new int[][] { { 30, 30 }, { 213, 572 }, { 132, 312 } },
+        //Color.black); draw poly
+        //midpointCircle(g, g2, addP(200, 200), 30, Color.black);
+          asg_60050165 j = new asg_60050165(g); // Draw Work From 600165
+        //asg_60050143 n = new asg_60050143(g); // Draw Work From 600163
 
     }
 
@@ -33,31 +34,31 @@ class asg_2 extends JPanel {
         Color num_Color;
         switch (num) {
         case 1:
-            num_Color = (new Color(114, 177, 178)); // color 1
+            num_Color = (new Color(100, 180, 228)); // color 1  skyblue 1
             break;
         case 2:
-            num_Color = (new Color(59, 98, 98));// color 2
+            num_Color = (new Color(149, 180, 228));// color 2   skyblue 2
             break;
         case 3:
-            num_Color = (new Color(42, 70, 70));// color 3
+            num_Color = (new Color(149, 200, 228));// color 3   skyblue 3
             break;
         case 4:
-            num_Color = (new Color(152, 254, 255));// color 4
+            num_Color = (new Color(152, 254, 255));// color 4   skywhite 1
             break;
         case 5:
-            num_Color = (new Color(79, 212, 214));// color 5
+            num_Color = (new Color(79, 212, 214));// color 5    skywhite 2
             break;
         case 6:
-            num_Color = (new Color(106, 251, 253));// color 6
+            num_Color = (new Color(106, 251, 253));// color 6   skywhite 3
             break;
         case 7:
-            num_Color = (new Color(62, 180, 181));// color 7
+            num_Color = (new Color(62, 180, 181));// color 7    skypink 1
             break;
         case 8:
-            num_Color = (new Color(44, 129, 130));// color 8
+            num_Color = (new Color(44, 129, 130));// color 8    skypink 2
             break;
         case 9:
-            num_Color = (new Color(20, 59, 59));// color 9
+            num_Color = (new Color(20, 59, 59));// color 9      skypink 3
             break;
         case 10:
             num_Color = (new Color(63, 170, 172));// color 10
