@@ -23,10 +23,8 @@ class asg_60050165 extends asg_2{
 	  sky_layer18_color10(g);
 	  sky_layer19_color10(g);
 	  sky_layer20_color11(g);
-
-
-	 
-	}
+	  sunset_color12(g);
+    }//contrater
 	private void sky_layer1_color1(Graphics g){
 		int color=1;
 		Graphics2D g2 = (Graphics2D) g;
@@ -215,8 +213,8 @@ class asg_60050165 extends asg_2{
 		   DrawPoly(g2,new int[][] { {320,240},{400,240},{350,210}},set_CG(color));
 		   DrawPoly(g2,new int[][] { {400,240},{480,240},{500,210}},set_CG(color));
 		   DrawPoly(g2,new int[][] { {480,240},{600,240},{600,210}},set_CG(color));
- }
- private void sky_layer17_color9(Graphics g){
+  }
+  private void sky_layer17_color9(Graphics g){
 		int color=9;
 		Graphics2D g2 = (Graphics2D) g;
 		   DrawPoly(g2,new int[][] { {0,240},{50,240},{40,270}},set_CG(color));
@@ -226,8 +224,8 @@ class asg_60050165 extends asg_2{
 		   DrawPoly(g2,new int[][] { {320,240},{400,240},{350,270}},set_CG(color));
 		   DrawPoly(g2,new int[][] { {400,240},{480,240},{400,270}},set_CG(color));
 		   DrawPoly(g2,new int[][] { {480,240},{600,240},{600,270}},set_CG(color));
- }
- private void sky_layer18_color10(Graphics g){
+  }
+  private void sky_layer18_color10(Graphics g){
 		int color=10;
 		Graphics2D g2 = (Graphics2D) g;
 		  DrawPoly(g2,new int[][] { {0,270},{40,270},{0,240}},set_CG(color));
@@ -235,8 +233,8 @@ class asg_60050165 extends asg_2{
 		  DrawPoly(g2,new int[][] { {150,270},{350,270},{300,240}},set_CG(color));
 		  DrawPoly(g2,new int[][] { {350,270},{400,270},{400,240}},set_CG(color));
 		  DrawPoly(g2,new int[][] { {400,270},{600,270},{480,240}},set_CG(color));
- }
- private void sky_layer19_color10(Graphics g){
+  }
+  private void sky_layer19_color10(Graphics g){
 		int color=10;
 		Graphics2D g2 = (Graphics2D) g;
 		  DrawPoly(g2,new int[][] { {0,270},{40,270},{0,300}},set_CG(color));
@@ -244,8 +242,8 @@ class asg_60050165 extends asg_2{
 		  DrawPoly(g2,new int[][] { {150,270},{350,270},{300,300}},set_CG(color));
 		  DrawPoly(g2,new int[][] { {350,270},{400,270},{400,300}},set_CG(color));
 		  DrawPoly(g2,new int[][] { {400,270},{600,270},{480,300}},set_CG(color));
- }
- private void sky_layer20_color11(Graphics g){
+  }
+  private void sky_layer20_color11(Graphics g){
 		int color=11;
 		Graphics2D g2 = (Graphics2D) g;
 		   DrawPoly(g2,new int[][] { {0,300},{50,300},{40,270}},set_CG(color));
@@ -253,6 +251,12 @@ class asg_60050165 extends asg_2{
 		   DrawPoly(g2,new int[][] { {300,300},{400,300},{350,270}},set_CG(color));
 		   DrawPoly(g2,new int[][] { {400,300},{490,300},{400,270}},set_CG(color));
 		   DrawPoly(g2,new int[][] { {484,300},{600,300},{600,270}},set_CG(color));
- }
+  }
+  private void sunset_color12(Graphics g){
+	    int color=12;
+		Graphics2D g2 = (Graphics2D) g;
+		  midpointCircle(g, g2, addP(265,265),30,set_CG(color));
+  }
+
 
 }

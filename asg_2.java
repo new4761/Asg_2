@@ -67,7 +67,7 @@ class asg_2 extends JPanel {
             num_Color = (new Color(217,199,252));// color 11   sky 11
             break;
         case 12:
-            num_Color = (new Color(26, 80, 81));// color 12
+            num_Color = (new Color(248,249,157));// color 12    sunset
             break;
         case 13:
             num_Color = (new Color(13, 39, 39));// color 13
