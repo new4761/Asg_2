@@ -255,6 +255,6 @@ class asg_60050165 extends asg_2{
    private void sunset_color12(Graphics g){ //draw sunset
 	    int color=12;
 		Graphics2D g2 = (Graphics2D) g;
-		  midpointCircle(g, g2, addP(265,265),30,set_CG(color));
+		  midpointCircle(g, g2, addP(300,265),30,set_CG(color));
    }//sunset_color12
 }//class
