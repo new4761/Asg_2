@@ -123,10 +123,10 @@ class asg_2 extends JPanel {
             plot(g, color, M.x - x, M.y + y);
             plot(g, color, M.x - x, M.y - y);
 
-            plot(g, color, M.y + y, M.x + x);
-            plot(g, color, M.y + y, M.x - x);
-            plot(g, color, M.y - y, M.x + x);
-            plot(g, color, M.y - y, M.x - x);
+            plot(g, color, M.x + y, M.y + x);
+            plot(g, color, M.x + y, M.y - x);
+            plot(g, color, M.x - y, M.y + x);
+            plot(g, color, M.x - y, M.y - x);
 
             g2.setColor(color);
             g2.setStroke(new BasicStroke(10));
