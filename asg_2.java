@@ -34,19 +34,19 @@ class asg_2 extends JPanel {
         Color num_Color;
         switch (num) {
         case 1:
-            num_Color = (new Color(100, 180, 228)); // color 1  skyblue 1
+            num_Color = (new Color(2, 130, 249)); // color 1  skyblue 1
             break;
         case 2:
-            num_Color = (new Color(149, 180, 228));// color 2   skyblue 2
+            num_Color = (new Color(52, 154, 249));// color 2   skyblue 2
             break;
         case 3:
-            num_Color = (new Color(149, 200, 228));// color 3   skyblue 3
+            num_Color = (new Color(109, 182, 249));// color 3   skyblue 3
             break;
         case 4:
-            num_Color = (new Color(152, 254, 255));// color 4   skywhite 1
+            num_Color = (new Color(147, 200, 249));// color 4   skyblue 4
             break;
         case 5:
-            num_Color = (new Color(79, 212, 214));// color 5    skywhite 2
+            num_Color = (new Color(184, 218, 249));// color 5    skyblue 5
             break;
         case 6:
             num_Color = (new Color(106, 251, 253));// color 6   skywhite 3
