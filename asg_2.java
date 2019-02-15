@@ -135,10 +135,10 @@ class asg_2 extends JPanel {
             g2.drawLine(M.x, M.y, M.x + x, M.y - y);
             g2.drawLine(M.x, M.y, M.x - x, M.y - y);
 
-            g2.drawLine(M.x, M.y, M.y + y, M.x + x);
-            g2.drawLine(M.x, M.y, M.y + y, M.x - x);
-            g2.drawLine(M.x, M.y, M.y - y, M.x + x);
-            g2.drawLine(M.x, M.y, M.y - y, M.x - x);
+            g2.drawLine(M.x, M.y, M.x + y, M.y + x);
+            g2.drawLine(M.x, M.y, M.x + y, M.y - x);
+            g2.drawLine(M.x, M.y, M.x - y, M.y + x);
+            g2.drawLine(M.x, M.y, M.x - y, M.y - x);
 
             x++;
             Dx += 2;
