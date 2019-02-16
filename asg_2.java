@@ -18,15 +18,14 @@ class asg_2 extends JPanel {
     }
 
     public void paintComponent(Graphics g) {
-		
 
         Graphics2D g2 = (Graphics2D) g;
 
-        //DrawPoly(g2, new int[][] { { 30, 30 }, { 213, 572 }, { 132, 312 } },
-        //Color.black); draw poly
-        //midpointCircle(g, g2, addP(200, 200), 30, Color.black);
-          asg_60050165 j = new asg_60050165(g); // Draw Work From 600165
-        //asg_60050143 n = new asg_60050143(g); // Draw Work From 600163
+        // DrawPoly(g2, new int[][] { { 30, 30 }, { 213, 572 }, { 132, 312 } },
+        // Color.black); draw poly
+        // midpointCircle(g, g2, addP(200, 200), 30, Color.black);
+        asg_60050165 j = new asg_60050165(g); // Draw Work From 600165
+        asg_60050143 n = new asg_60050143(g); // Draw Work From 600163
 
     }
 
@@ -34,40 +33,40 @@ class asg_2 extends JPanel {
         Color num_Color;
         switch (num) {
         case 1:
-            num_Color = (new Color(99,22,252)); // color 1    sky 1
+            num_Color = (new Color(99, 22, 252)); // color 1 sky 1
             break;
         case 2:
-            num_Color = (new Color(116,47,252));// color 2    sky 2
+            num_Color = (new Color(116, 47, 252));// color 2 sky 2
             break;
         case 3:
-            num_Color = (new Color(131,70,252));// color 3   sky 3
+            num_Color = (new Color(131, 70, 252));// color 3 sky 3
             break;
         case 4:
-            num_Color = (new Color(141,85,252));// color 4   sky 4
+            num_Color = (new Color(141, 85, 252));// color 4 sky 4
             break;
         case 5:
-            num_Color = (new Color(156,108,252));// color 5   sky 5
+            num_Color = (new Color(156, 108, 252));// color 5 sky 5
             break;
         case 6:
-            num_Color = (new Color(164,121,252));// color 6   sky 6
+            num_Color = (new Color(164, 121, 252));// color 6 sky 6
             break;
         case 7:
-            num_Color = (new Color(173,133,252));// color 7   sky 7
+            num_Color = (new Color(173, 133, 252));// color 7 sky 7
             break;
         case 8:
-            num_Color = (new Color(183,148,252));// color 8   sky 8
+            num_Color = (new Color(183, 148, 252));// color 8 sky 8
             break;
         case 9:
-            num_Color = (new Color(191,161,252));// color 9   sky 9
+            num_Color = (new Color(191, 161, 252));// color 9 sky 9
             break;
         case 10:
-            num_Color = (new Color(201,176,252));// color 10   sky 10
+            num_Color = (new Color(201, 176, 252));// color 10 sky 10
             break;
         case 11:
-            num_Color = (new Color(217,199,252));// color 11   sky 11
+            num_Color = (new Color(217, 199, 252));// color 11 sky 11
             break;
         case 12:
-            num_Color = (new Color(248,249,157));// color 12    sunset
+            num_Color = (new Color(248, 249, 157));// color 12 sunset
             break;
         case 13:
             num_Color = (new Color(13, 39, 39));// color 13
@@ -102,7 +101,6 @@ class asg_2 extends JPanel {
         Polygon poly = new Polygon();
 
         for (int[] i : p) {
-            System.out.println(i[0]);
             poly.addPoint(i[0], i[1]);
         }
         g2.setColor(color);
