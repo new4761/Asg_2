@@ -24,8 +24,8 @@ class asg_2 extends JPanel {
         // DrawPoly(g2, new int[][] { { 30, 30 }, { 213, 572 }, { 132, 312 } },
         // Color.black); draw poly
         // midpointCircle(g, g2, addP(200, 200), 30, Color.black);
-        asg_60050165 j = new asg_60050165(g); // Draw Work From 600165
-        asg_60050143 n = new asg_60050143(g); // Draw Work From 600163
+        Assignment2_60050165 j = new Assignment2_60050165(g); // Draw Work From 600165
+        Assignment2_60050143 n = new Assignment2_60050143(g); // Draw Work From 600163
 
     }
 
